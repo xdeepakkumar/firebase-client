@@ -6,7 +6,7 @@
     <ngb-toast *ngIf="message" [autohide]="true" (hidden)="hiddenHandler()" class="custom-toast">
       <ng-template ngbToastHeader>
         <div class="me-auto">
-          <img height="30" width="30" src="{{message?.notification?.image}}" class="rounded me-2" alt="...">
+          <img height="30" width="30" src="{{message?.notification?.image}}" class=" me-2" alt="...">
           <strong class="mx-1">{{message?.notification?.title}}</strong>
         </div>
       </ng-template>

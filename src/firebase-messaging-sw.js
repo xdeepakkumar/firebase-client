@@ -1,13 +1,18 @@
-importScripts("https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js");
-importScripts("https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging-compat.js");
+importScripts(
+  "https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"
+);
+importScripts(
+  "https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging-compat.js"
+);
 firebase.initializeApp({
-  apiKey: "AIzaSyBVcIeYTgCOK4CHRcKgv4fUbXvL1t8shLE",
-  authDomain: "push-notify-3ef28.firebaseapp.com",
-  projectId: "push-notify-3ef28",
-  storageBucket: "push-notify-3ef28.appspot.com",
-  messagingSenderId: "799739220120",
-  appId: "1:799739220120:web:f28b4620ca26d447bc40ed",
-  measurementId: "G-PPVCRKEKX6",
-  vapidKey: "BFelLNdjd2C-Q4udIVv89xqWef5d1_ffBQ3up5H9KvAgJmf3e32AzMwjYJ0Ea_abT5_kxb4uDTCXlIK7zfM0VQY"
+  apiKey: "AIzaSyDzieRLEAAFmB7imaJWAnonOS07Q-5i4PY",
+  authDomain: "push-notification-38375.firebaseapp.com",
+  projectId: "push-notification-38375",
+  storageBucket: "push-notification-38375.appspot.com",
+  messagingSenderId: "215919259720",
+  appId: "1:215919259720:web:0a929f21d087928b9c287d",
+  measurementId: "G-0L03ZD48S9",
+  vapidKey:
+    "BBilcjD-GvepXwaDhPdfwMD504HnrHXZxbEpdFfTisi__TSo0VP4vbbjtKRkqzlNbfvbX412M5vBCNX8DxQJS9Y",
 });
 const messaging = firebase.messaging();
